@@ -1,13 +1,17 @@
 pip>=25.0
 setuptools>=75.0
 wheel
+
+# Core
 streamlit==1.38.0
 numpy==1.26.4
 pandas==2.2.3
 scikit-learn==1.5.2
-tensorflow-cpu==2.14.0
-keras==2.14.0
 pillow==10.4.0
 protobuf==4.25.3
 h5py==3.10.0
+
+# Lightweight TensorFlow build
+tensorflow-cpu==2.14.0
+keras==2.14.0
 
